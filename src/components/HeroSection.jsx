@@ -16,7 +16,7 @@ const Hero = () => {
             <div className="mt-8 text-left">
                 <h1 className="text-[2rem] font-extrabold">Strengthening Relationships</h1>
                 <div className="mt-2">
-                    <div className="py-3 flex justify-between text-[.8rem] font-medium">
+                    <div className="py-3 flex justify-between  font-medium">
                         <span>Nov 27 2022</span>
                         <span>5:30 PM</span>
                     </div>
