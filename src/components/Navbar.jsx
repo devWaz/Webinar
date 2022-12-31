@@ -18,7 +18,7 @@ const Navbar = () => {
                 <a href="">Company</a>
                 <a href="">Help</a> */}
             </div>
-            <div className="hidden">
+            <div className="">
                 <button className="p-1.5 px-5 text-[#717172]">Log in</button>
                 <button className="p-1.5 px-5 text-[#FFFFFF] bg-[#1070FF] rounded">Sign up</button>
             </div>

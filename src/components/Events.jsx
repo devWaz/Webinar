@@ -1,12 +1,13 @@
 import Arrow from "../assets/downArrow.svg"
-import reconnect from "../assets/reconnect.png"
+import connect from "../assets/connect.png"
 import friendship from "../assets/friendship.png"
 import reset from "../assets/reset.png"
 
 const Event = ({title , bg}) => (
     <div 
     style={{backgroundImage: `url(${bg})` , backgroundPosition: "center", backgroundRepeat: "no-repeat"}}
-    className="h-[24rem] relative mb-7">
+    className="h-[24rem] w-[21rem] relative mb-7
+                md:w-[32%]">
         <div className="text-white absolute bottom-[2rem] px-3 w-full">
             <h3 className="text-[1.5rem] font-bold">{title}</h3>
             <div className="flex border-y-[1px] py-2 mt-3 justify-between">
@@ -31,8 +32,9 @@ const Events = () => {
                 </div>
             </div>
 
-            <div className="my-10">
-                <Event title="Re-connecting Family" bg={reconnect}/>
+            <div className="my-10 flex flex-col items-center 
+                            md:flex-row md:justify-between">
+                <Event title="Re-connecting Family" bg={connect}/>
                 <Event title="Friendship and Belonging" bg={friendship}/>
                 <Event title="The Friendship Reset" bg={reset}/>
             </div>
