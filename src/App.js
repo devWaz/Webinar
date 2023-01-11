@@ -7,7 +7,7 @@ import NewsLetter from "./components/NewsLetter";
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/> */}
       <Hero/>
       <Speakers/>
       <Events/>
